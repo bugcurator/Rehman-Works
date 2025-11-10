@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Shafi Ur Rehman - Professional Electrician, Plumber, AC Expert, and Solar Installation Specialist in Swabi, Pakistan with 25+ years of experience."
+    />
+    <meta
+      name="keywords"
+      content="electrician Swabi, plumber Pakistan, AC expert, solar installation, Shafi Ur Rehman, electrical services, plumbing services"
+    />
+    <title>Portfolio | Shafi Ur Rehman</title>
+
+    <!-- Favicon -->
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>"
+    />
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- LOADER -->
+    <div id="loader">
+      <div class="loader-spinner"></div>
+    </div>
+
+    <!-- MENU OVERLAY -->
+    <div class="menu-overlay" id="menuOverlay"></div>
+
+    <!-- HEADER -->
+    <header id="header">
+      <nav class="flex justify-between items-center max-w-7xl mx-auto">
+        <div class="text-white text-2xl font-bold">
+          <i class="fas fa-bolt text-yellow-400"></i> Shafi Ur Rehman
+        </div>
+
+        <!-- Desktop Menu -->
+        <ul class="desktop-menu hidden md:flex space-x-8 text-white">
+          <li><a href="#home" class="nav-link hover:text-cyan-400">Home</a></li>
+          <li>
+            <a href="#about" class="nav-link hover:text-cyan-400">About</a>
+          </li>
+          <li>
+            <a href="#skills" class="nav-link hover:text-cyan-400">Skills</a>
+          </li>
+          <li>
+            <a href="#experience" class="nav-link hover:text-cyan-400"
+              >Experience</a
+            >
+          </li>
+          <li>
+            <a href="#education" class="nav-link hover:text-cyan-400"
+              >Education</a
+            >
+          </li>
+          <li>
+            <a href="#testimonials" class="nav-link hover:text-cyan-400"
+              >Testimonials</a
+            >
+          </li>
+          <li>
+            <a href="#contact" class="nav-link hover:text-cyan-400">Contact</a>
+          </li>
+        </ul>
+
+        <!-- Hamburger -->
+        <button class="hamburger md:hidden text-white text-2xl" id="hamburger">
+          <i class="fas fa-bars"></i>
+        </button>
+      </nav>
+    </header>
+
+    <!-- MOBILE MENU -->
+    <div class="mobile-menu" id="mobileMenu">
+      <div class="p-8">
+        <button class="text-white text-2xl mb-8" id="closeMenu">
+          <i class="fas fa-times"></i>
+        </button>
+        <ul class="space-y-6 text-white text-lg">
+          <li>
+            <a href="#home" class="mobile-link block hover:text-cyan-400"
+              >Home</a
+            >
+          </li>
+          <li>
+            <a href="#about" class="mobile-link block hover:text-cyan-400"
+              >About</a
+            >
+          </li>
+          <li>
+            <a href="#skills" class="mobile-link block hover:text-cyan-400"
+              >Skills</a
+            >
+          </li>
+          <li>
+            <a href="#experience" class="mobile-link block hover:text-cyan-400"
+              >Experience</a
+            >
+          </li>
+          <li>
+            <a href="#education" class="mobile-link block hover:text-cyan-400"
+              >Education</a
+            >
+          </li>
+          <li>
+            <a
+              href="#testimonials"
+              class="mobile-link block hover:text-cyan-400"
+              >Testimonials</a
+            >
+          </li>
+          <li>
+            <a href="#contact" class="mobile-link block hover:text-cyan-400"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- HERO SECTION -->
+    <section id="home" class="hero-section">
+      <div class="hero-content max-w-4xl">
+        <h1 class="text-5xl md:text-6xl font-bold mb-4">Shafi Ur Rehman</h1>
+        <h2 class="text-2xl md:text-3xl mb-4 text-cyan-300">
+          Electrician | Plumber | AC Expert | Solar Specialist
+        </h2>
+        <p class="text-lg md:text-xl mb-8 opacity-90">
+          Delivering Quality Service with 25+ Years of Excellence in Swabi,
+          Pakistan
+        </p>
+        <div class="hero-buttons space-x-4">
+          <a href="#contact" class="btn-primary">Contact Me</a>
+          <a href="#skills" class="btn-secondary">View My Work</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="py-20 px-4 bg-gray-50">
+      <div class="max-w-7xl mx-auto">
+        <div class="grid md:grid-cols-2 gap-12 items-center reveal">
+          <div>
+            <img
+              src="./assets/shafi-ur-rehman.jpg"
+              alt="Professional electrician at work"
+              class="rounded-lg shadow-lg w-full"
+            />
+          </div>
+          <div>
+            <h2 class="text-4xl font-bold text-blue-900 mb-6">About Me</h2>
+            <p class="text-gray-700 text-lg mb-6 leading-relaxed">
+              With over 25 years of hands-on experience, I specialize in
+              electrical installations, plumbing services, AC maintenance, and
+              solar panel installations. My commitment to excellence and
+              customer satisfaction has made me a trusted professional in Swabi
+              and surrounding areas.
+            </p>
+            <p class="text-gray-700 text-lg mb-8 leading-relaxed">
+              I am certified by Minhas Technical Training Program and have
+              successfully completed 999+ projects, serving 40+ regular clients
+              with dedication and expertise.
+            </p>
+            <p class="text-gray-700 text-lg mb-8 leading-relaxed">
+              From 2012 to 2014, I worked as a Maintenance Technician at Jamiat
+              ul Khairia, KSA, where I gained valuable international experience
+              in facility maintenance and technical support.
+            </p>
+
+            <!-- Achievement Stats -->
+            <div class="grid grid-cols-2 gap-6">
+              <div
+                class="text-center p-4 bg-white rounded-lg shadow hover:shadow-lg transition"
+              >
+                <i class="fas fa-award text-cyan-500 text-3xl mb-2"></i>
+                <div class="text-3xl font-bold text-blue-900">25+</div>
+                <div class="text-gray-600">Years Experience</div>
+              </div>
+              <div
+                class="text-center p-4 bg-white rounded-lg shadow hover:shadow-lg transition"
+              >
+                <i
+                  class="fas fa-project-diagram text-cyan-500 text-3xl mb-2"
+                ></i>
+                <div class="text-3xl font-bold text-blue-900">999+</div>
+                <div class="text-gray-600">Projects Completed</div>
+              </div>
+              <div
+                class="text-center p-4 bg-white rounded-lg shadow hover:shadow-lg transition"
+              >
+                <i class="fas fa-users text-cyan-500 text-3xl mb-2"></i>
+                <div class="text-3xl font-bold text-blue-900">40+</div>
+                <div class="text-gray-600">Regular Clients</div>
+              </div>
+              <div
+                class="text-center p-4 bg-white rounded-lg shadow hover:shadow-lg transition"
+              >
+                <i class="fas fa-solar-panel text-cyan-500 text-3xl mb-2"></i>
+                <div class="text-3xl font-bold text-blue-900">3+</div>
+                <div class="text-gray-600">Years Solar Experience</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section id="skills" class="py-20 px-4 bg-white">
+      <div class="max-w-7xl mx-auto">
+        <h2 class="text-4xl font-bold text-center text-blue-900 mb-4 reveal">
+          Professional Skills
+        </h2>
+        <p class="text-center text-gray-600 mb-12 reveal">
+          Expertise across multiple technical domains
+        </p>
+
+        <div class="grid md:grid-cols-3 gap-8">
+          <div class="card skill-card reveal">
+            <i class="fas fa-bolt"></i>
+            <h3 class="text-2xl font-bold text-blue-900 mb-2">
+              Electrical Services
+            </h3>
+            <p class="text-cyan-600 font-semibold mb-3">25+ Years Experience</p>
+            <p class="text-gray-600">
+              Complete electrical installations, repairs, and maintenance for
+              residential and commercial properties.
+            </p>
+          </div>
+
+          <div class="card skill-card reveal">
+            <i class="fas fa-wrench"></i>
+            <h3 class="text-2xl font-bold text-blue-900 mb-2">
+              Plumbing Solutions
+            </h3>
+            <p class="text-cyan-600 font-semibold mb-3">25+ Years Experience</p>
+            <p class="text-gray-600">
+              Expert plumbing installations, leak repairs, pipe fitting, and
+              water system management.
+            </p>
+          </div>
+
+          <div class="card skill-card reveal">
+            <i class="fas fa-fan"></i>
+            <h3 class="text-2xl font-bold text-blue-900 mb-2">AC Expert</h3>
+            <p class="text-cyan-600 font-semibold mb-3">25+ Years Experience</p>
+            <p class="text-gray-600">
+              Professional AC installation, servicing, repair, and maintenance
+              for all major brands.
+            </p>
+          </div>
+        </div>
+
+        <div class="mt-8 max-w-md mx-auto">
+          <div class="card skill-card reveal">
+            <i class="fas fa-solar-panel"></i>
+            <h3 class="text-2xl font-bold text-blue-900 mb-2">
+              Solar Installation
+            </h3>
+            <p class="text-cyan-600 font-semibold mb-3">3+ Years Experience</p>
+            <p class="text-gray-600">
+              Modern solar panel installation and maintenance for sustainable
+              energy solutions.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- COUNTER SECTION -->
+    <section class="counter-section">
+      <div class="max-w-7xl mx-auto">
+        <div class="grid md:grid-cols-4 gap-8">
+          <div class="counter-item reveal">
+            <i class="fas fa-calendar-alt text-5xl mb-4"></i>
+            <span class="counter-number" data-target="25">0</span>
+            <p class="text-xl mt-2">Years of Experience</p>
+          </div>
+          <div class="counter-item reveal">
+            <i class="fas fa-check-circle text-5xl mb-4"></i>
+            <span class="counter-number" data-target="999">0</span>
+            <p class="text-xl mt-2">Projects Completed</p>
+          </div>
+          <div class="counter-item reveal">
+            <i class="fas fa-handshake text-5xl mb-4"></i>
+            <span class="counter-number" data-target="40">0</span>
+            <p class="text-xl mt-2">Regular Clients</p>
+          </div>
+          <div class="counter-item reveal">
+            <i class="fas fa-sun text-5xl mb-4"></i>
+            <span class="counter-number" data-target="3">0</span>
+            <p class="text-xl mt-2">Years Solar Experience</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE SECTION -->
+    <section id="experience" class="py-20 px-4 bg-gray-50">
+      <div class="max-w-4xl mx-auto">
+        <h2 class="text-4xl font-bold text-center text-blue-900 mb-12 reveal">
+          Professional Experience
+        </h2>
+
+        <div class="space-y-8">
+          <div class="card reveal">
+            <div class="flex items-start">
+              <i class="fas fa-briefcase text-cyan-500 text-3xl mr-4 mt-1"></i>
+              <div>
+                <h3 class="text-2xl font-bold text-blue-900">
+                  Master Electrician & Plumber
+                </h3>
+                <p class="text-cyan-600 font-semibold mb-2">
+                  1998 - Present | Swabi, Pakistan
+                </p>
+                <ul class="text-gray-700 space-y-2 list-disc list-inside">
+                  <li>
+                    Residential and commercial electrical installations and
+                    repairs
+                  </li>
+                  <li>
+                    Complete plumbing system installations and maintenance
+                  </li>
+                  <li>Emergency electrical and plumbing services</li>
+                  <li>Customer consultation and project planning</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="card reveal">
+            <div class="flex items-start">
+              <i class="fas fa-wind text-cyan-500 text-3xl mr-4 mt-1"></i>
+              <div>
+                <h3 class="text-2xl font-bold text-blue-900">
+                  AC Installation & Service Expert
+                </h3>
+                <p class="text-cyan-600 font-semibold mb-2">
+                  1998 - Present | Swabi, Pakistan
+                </p>
+                <ul class="text-gray-700 space-y-2 list-disc list-inside">
+                  <li>Installation of split and window AC units</li>
+                  <li>Regular maintenance and servicing contracts</li>
+                  <li>Troubleshooting and repair services</li>
+                  <li>Gas refilling and system optimization</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="card reveal">
+            <div class="flex items-start">
+              <i
+                class="fas fa-solar-panel text-cyan-500 text-3xl mr-4 mt-1"
+              ></i>
+              <div>
+                <h3 class="text-2xl font-bold text-blue-900">
+                  Solar Panel Installation Specialist
+                </h3>
+                <p class="text-cyan-600 font-semibold mb-2">
+                  2022 - Present | Swabi, Pakistan
+                </p>
+                <ul class="text-gray-700 space-y-2 list-disc list-inside">
+                  <li>Residential solar panel system installations</li>
+                  <li>System design and energy audit consultation</li>
+                  <li>Inverter installation and configuration</li>
+                  <li>Maintenance and performance monitoring</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="card reveal">
+            <div class="flex items-start">
+              <i class="fas fa-wrench text-cyan-500 text-3xl mr-4 mt-1"></i>
+              <div>
+                <h3 class="text-2xl font-bold text-blue-900">
+                  Maintenance Technician
+                </h3>
+                <p class="text-cyan-600 font-semibold mb-2">
+                  2012 - 2014 | Jamiat-ul-Khairia, Kingdom of Saudi Arabia
+                </p>
+                <ul class="text-gray-700 space-y-2 list-disc list-inside">
+                  <li>Facility maintenance and upkeep</li>
+                  <li>Electrical and plumbing troubleshooting</li>
+                  <li>Equipment repair and maintenance</li>
+                  <li>Preventive maintenance programs</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION SECTION -->
+    <section id="education" class="py-20 px-4 bg-white">
+      <div class="max-w-4xl mx-auto">
+        <h2 class="text-4xl font-bold text-center text-blue-900 mb-12 reveal">
+          Education & Certification
+        </h2>
+
+        <div class="grid md:grid-cols-2 gap-8">
+          <div class="card reveal">
+            <i class="fas fa-graduation-cap text-cyan-500 text-4xl mb-4"></i>
+            <h3 class="text-2xl font-bold text-blue-900 mb-2">
+              Secondary School Certificate
+            </h3>
+            <p class="text-gray-700 mb-1">
+              <strong>Board:</strong> BISE Peshawar
+            </p>
+            <p class="text-gray-700 mb-1"><strong>Marks:</strong> 550/1050</p>
+            <p class="text-gray-700 mb-1"><strong>Year:</strong> 1997</p>
+            <p class="text-gray-700">
+              <strong>Location:</strong> Swabi, KP, Pakistan
+            </p>
+          </div>
+
+          <div class="card reveal">
+            <i class="fas fa-certificate text-cyan-500 text-4xl mb-4"></i>
+            <h3 class="text-2xl font-bold text-blue-900 mb-2">
+              Professional Certification
+            </h3>
+            <p class="text-gray-700 mb-2">
+              <strong>Certified by Minhas Technical Training Program</strong>
+            </p>
+            <p class="text-gray-700 mb-1">
+              <strong>Date:</strong> 11 December 2020
+            </p>
+            <p class="text-gray-700">
+              <strong>Certified by:</strong> CEO Mr. Khaliq Ahmed Minhas
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS SECTION -->
+    <section id="testimonials" class="py-20 px-4 bg-gray-50">
+      <div class="max-w-7xl mx-auto">
+        <h2 class="text-4xl font-bold text-center text-blue-900 mb-4 reveal">
+          Client Testimonials
+        </h2>
+        <p class="text-center text-gray-600 mb-12 reveal">
+          What our satisfied clients say
+        </p>
+
+        <div class="testimonial-container">
+          <div class="testimonial-slide active">
+            <div class="testimonial-card">
+              <i class="fas fa-quote-left text-cyan-500 text-4xl mb-4"></i>
+              <p class="text-gray-700 text-lg mb-6 italic">
+                "Shafi Ur Rehman provided exceptional service while installing
+                three large-scale solar systems for Jazz Tailor. His
+                professionalism, deep technical knowledge, and attention to
+                detail were truly impressive. The systems were delivered on
+                time, function flawlessly, and have significantly reduced our
+                energy costs. I'm fully satisfied with his work and highly
+                recommend him for any solar installation project."
+              </p>
+              <h4 class="font-bold text-blue-900 text-xl">Tahir</h4>
+              <p class="text-gray-600">Owner of Jazz Tailor</p>
+            </div>
+          </div>
+
+          <div class="testimonial-slide">
+            <div class="testimonial-card">
+              <i class="fas fa-quote-left text-cyan-500 text-4xl mb-4"></i>
+              <p class="text-gray-700 text-lg mb-6 italic">
+                "Shafi Ur Rehman has handled plumbing, electrical, and solar
+                system installations across 15+ of my residential projects. His
+                skillset is versatile, and the quality of his work is
+                consistently reliable and professional. He also set up 3
+                complete solar systems for me. I'm fully satisfied and will
+                definitely continue hiring him for future work."
+              </p>
+              <h4 class="font-bold text-blue-900 text-xl">Irfan Ullah</h4>
+              <p class="text-gray-600">Property Dealer</p>
+            </div>
+          </div>
+
+          <div class="testimonial-slide">
+            <div class="testimonial-card">
+              <i class="fas fa-quote-left text-cyan-500 text-4xl mb-4"></i>
+              <p class="text-gray-700 text-lg mb-6 italic">
+                "I had the opportunity to work with Shafi Ur Rehman on three
+                residential projects, where he handled plumbing, electrical
+                work, and a complete solar system installation. His skills,
+                commitment, and reliability truly stand out. I'm highly
+                satisfied with his service and would gladly hire him again."
+              </p>
+              <h4 class="font-bold text-blue-900 text-xl">Ishtiaq Ahmad</h4>
+              <p class="text-gray-600">Property Dealer</p>
+            </div>
+          </div>
+
+          <div class="testimonial-slide">
+            <div class="testimonial-card">
+              <i class="fas fa-quote-left text-cyan-500 text-4xl mb-4"></i>
+              <p class="text-gray-700 text-lg mb-6 italic">
+                "I've had the pleasure of working with Shafi Ur Rehman on
+                multiple projects—at my residence and my market on Swabi Link
+                Road. He handled all plumbing, electrical work, and installed a
+                large solar system with professionalism and care. A highly
+                reliable and skilled technician."
+              </p>
+              <h4 class="font-bold text-blue-900 text-xl">Mazhar</h4>
+              <p class="text-gray-600">Shopkeeper & Market Owner</p>
+            </div>
+          </div>
+
+          <div class="testimonial-slide">
+            <div class="testimonial-card">
+              <i class="fas fa-quote-left text-cyan-500 text-4xl mb-4"></i>
+              <p class="text-gray-700 text-lg mb-6 italic">
+                " From consultation to completion, Shafi Ur Rehman delivered
+                exceptional service by installing two large solar systems—one
+                for my home and another for my mart in Swabi. His expertise and
+                professionalism were clearly visible throughout the project."
+              </p>
+              <h4 class="font-bold text-blue-900 text-xl">Mukhtiar Ali</h4>
+              <p class="text-gray-600">Owner of Qayyum Super Store's, & Mart</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="py-20 px-4 bg-white">
+      <div class="max-w-4xl mx-auto text-center">
+        <h2 class="text-4xl font-bold text-blue-900 mb-4 reveal">
+          Get In Touch
+        </h2>
+        <p class="text-gray-600 text-lg mb-12 reveal">
+          Ready to start your project? Contact me today!
+        </p>
+
+        <div class="grid md:grid-cols-2 gap-6 mb-8 reveal">
+          <a
+            href="mailto:shafeeurrehman660@gmail.com?subject=Service%20Inquiry&body=Hi%20Shafi%2C%0A%0AI%20would%20like%20to%20discuss%20your%20electrical%2Fplumbing%2Fsolar%20services."
+            class="btn-primary flex items-center justify-center space-x-3 text-lg py-4"
+          >
+            <i class="fas fa-envelope text-2xl"></i>
+            <span>Email Me</span>
+          </a>
+
+          <a
+            href="https://wa.me/923339427671?text=Hi%2C%20I%20found%20your%20services%20online%20and%20would%20like%20to%20know%20more."
+            target="_blank"
+            class="btn-primary flex items-center justify-center space-x-3 text-lg py-4"
+            style="background: #25d366"
+          >
+            <i class="fab fa-whatsapp text-2xl"></i>
+            <span>WhatsApp Chat</span>
+          </a>
+        </div>
+
+        <p class="text-gray-600 text-lg reveal">
+          <i class="fas fa-map-marker-alt text-cyan-500"></i>
+          Available in Swabi, KP, Pakistan
+        </p>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="max-w-7xl mx-auto">
+        <div class="mb-6">
+          <!-- <a href="https://facebook.com" target="_blank" class="social-icon">
+            <i class="fab fa-facebook"></i>
+          </a> -->
+          <a
+            href="https://wa.me/923339427671?text=Hi%2C%20I%20found%20your%20services%20online%20and%20would%20like%20to%20know%20more."
+            target="_blank"
+            class="social-icon"
+          >
+            <i class="fab fa-whatsapp"></i>
+          </a>
+
+          <a
+            href="mailto:shafeeurrehman660@gmail.com?subject=Service%20Inquiry&body=Hi%20Shafi%2C%0A%0AI%20would%20like%20to%20discuss%20your%20electrical%2Fplumbing%2Fsolar%20services."
+            class="social-icon"
+          >
+            <i class="fas fa-envelope"></i>
+          </a>
+        </div>
+
+        <div class="border-t border-blue-700 pt-6">
+          <p class="text-sm opacity-90">
+            <i class="fa-regular fa-copyright"></i> 2025 Shafi Ur Rehman. All
+            Rights Reserved.
+          </p>
+          <p class="dev text-sm mt-2 opacity-75">
+            Developed by
+            <span class="font-semibold"
+              ><a
+                href="mailto:iubaidahmad303@gmail.com"
+                title="Developer & Designer"
+                >Ubaid Ahmad <i class="fa-solid fa-code"></i></a
+            ></span>
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
